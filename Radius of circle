@@ -1,0 +1,8 @@
+
+radius = int(input("Enter the radius of a circle"))
+area_of_a_circle = 3.1415 * radius * radius
+circumference_of_a_circle = 2 * 3.1415 * radius
+print(f"Area = {area_of_a_circle} and Circumference = {circumference_of_a_circle}")
+Output
+Enter the radius of circle5
+Area=78.53750000000001 and circumference=31.4150000000003
