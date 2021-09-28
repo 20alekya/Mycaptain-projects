@@ -1,0 +1,11 @@
+fn= input("Enter Filename: ")
+
+f = fn.split(".")
+
+print ("Extension of the file is : " + f[-1])
+
+Output : 
+
+Enter Filename: hello.txt 
+
+Extension of the file is : txt
