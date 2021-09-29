@@ -1,0 +1,18 @@
+def most_frequent(string):
+    d = dict()
+    for key in string:
+        if key not in d:
+            d[key] = 1
+        else:
+            d[key] += 1
+    sorted_dict = {}
+    sorted_keys = sorted(d, key=d.get,reverse=True)
+    for w in sorted_keys:
+        sorted_dict[w] = d[w]
+    return sorted_dict
+
+str=input("Enter a String")
+print(most_frequent(str))
+Output
+Enter a string mississipi
+{"i":4,"s":4,"p":2,"m":1}
